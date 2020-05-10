@@ -20,7 +20,7 @@ Developed using Tensorflow 1.15
 
 
 To kick-start the model training process, Run the train file located in object_detection/legacy/
-python train.py –-logtostderr –train_sir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+`python train.py –-logtostderr –train_sir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config`
 
 To save frozen graph for inference, Run the following command (To be able convert an inference graph to its `.tflite` variant you need to enable _quantization aware training_ and you can specify that in the `.config` file itself.) :
 ```
