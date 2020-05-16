@@ -1,10 +1,8 @@
 # DeepLearning-based-Number-Plate-Recognition
-This project demonstrates the use of [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) to automatically recognise number plates of Indian vehicles.
+Model is trained using SSD_MobileNet_V1 architecture cascading to OCR for automatically recognise number plates of Indian vehicles.
 
 Dataset used: https://www.kaggle.com/dataturks/vehicle-number-plate-detection
 Developed using Tensorflow 1.15
-
-## File description:
 
 - Data-Images.zip: Contains the images of the cars, number plates and annotations in `.txt` files (YOLO format)
 - Data_preparation.ipynb: A notebook demonstrating the process of preparing the dataset (`.csv` files) for creating TFRecords (otherwise TensorFlow Object Detection API won't work)
